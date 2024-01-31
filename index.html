@@ -25,6 +25,9 @@
     border-radius: 100%;
 
 }
+li{
+  list-style-type: none;
+}
     </style>
   </head>
   <body>
@@ -37,85 +40,142 @@
           </button></h5>
         </div>
       </div>
-      <div class="card">
-        <div class="card-body bg-white d-flex justify-content-between">
-            <div class="dropdown">
-          <a class="navbar-brand">
-          <i class="fa-regular fa-heart"></i>
-          Wishlist</a>
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid d-flex align-content-center">
+          <a class="navbar-brand" href="#"><i class="fa-regular fa-heart"></i>Wishlist</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-flex gap-5 justify-content-center" id="navbarScroll" >
+            <li class="nav-item dropdown">
+              <a  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="text-decoration: none;color: black;">
+                HOME
+              </a>
+              <ul class="dropdown-menu bg-dark">
+                <li><a class="dropdown-item text-white" href="#">Action</a></li>
+                <li><a class="dropdown-item text-white" href="#">Action</a></li>
+                <li><a class="dropdown-item text-white" href="#">Action</a></li>
+                <li><a class="dropdown-item text-white" href="#">Action</a></li>
+                <li><a class="dropdown-item text-white" href="#">Action</a></li>
+               
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="text-decoration: none;color: black;">
+                PAGES
+              </a>
+              <ul class="dropdown-menu bg-dark">
+                <li><a class="dropdown-item text-white" href="#">Action</a></li>
+                <li><a class="dropdown-item text-white" href="#">Action</a></li>
+                <li><a class="dropdown-item text-white" href="#">Action</a></li>
+                <li><a class="dropdown-item text-white" href="#">Action</a></li>
+                <li><a class="dropdown-item text-white" href="#">Action</a></li>
+               
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="text-decoration: none;color: black;">
+                BLOG
+              </a>
+              <ul class="dropdown-menu bg-dark">
+                <li><a class="dropdown-item text-white" href="#">Action</a></li>
+                <li><a class="dropdown-item text-white" href="#">Action</a></li>
+                <li><a class="dropdown-item text-white" href="#">Action</a></li>
+                <li><a class="dropdown-item text-white" href="#">Action</a></li>
+                <li><a class="dropdown-item text-white" href="#">Action</a></li>
+               
+              </ul>
+            </li>
+            <h2 style="font-family: Brush Script MT, Brush Script Std, cursive;">Canvas</h2>
+            <li class="nav-item dropdown">
+              <a  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="text-decoration: none;color: black;">
+                SHOP
+              </a>
+              <ul class="dropdown-menu bg-dark">
+                <li><a class="dropdown-item text-white" href="#">Action</a></li>
+                <li><a class="dropdown-item text-white" href="#">Action</a></li>
+                <li><a class="dropdown-item text-white" href="#">Action</a></li>
+                <li><a class="dropdown-item text-white" href="#">Action</a></li>
+                <li><a class="dropdown-item text-white" href="#">Action</a></li>
+               
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="text-decoration: none;color: black;">
+                PORTFOLIO
+              </a>
+              <ul class="dropdown-menu bg-dark">
+                <li><a class="dropdown-item text-white" href="#">Action</a></li>
+                <li><a class="dropdown-item text-white" href="#">Action</a></li>
+                <li><a class="dropdown-item text-white" href="#">Action</a></li>
+                <li><a class="dropdown-item text-white" href="#">Action</a></li>
+                <li><a class="dropdown-item text-white" href="#">Action</a></li>
+               
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="text-decoration: none;color: black;">
+                CONTACT
+              </a>
+              <ul class="dropdown-menu bg-dark">
+                <li><a class="dropdown-item text-white" href="#">Action</a></li>
+                <li><a class="dropdown-item text-white" href="#">Action</a></li>
+                <li><a class="dropdown-item text-white" href="#">Action</a></li>
+                <li><a class="dropdown-item text-white" href="#">Action</a></li>
+                <li><a class="dropdown-item text-white" href="#">Action</a></li>
+               
+              </ul>
+            </li>
+          </div>
+          <div class="d-flex gap-3">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-bag-shopping"></i>
+          <i class="fa-solid fa-sliders"></i>
+          </div>
+    
         </div>
-          <a class="navbar-brand text-dark" href="#">HOME</a>
-  <a class="navbar-brand text-dark" href="#">PAGE</a>
-  <a class="navbar-brand text-dark" href="#">BLOG</a>
-  <a class="navbar-brand text-dark" href="#">SHIPPING INFO</a>
-  <a class="navbar-brand text-dark" href="#">ABOUT</a>
-  <a class="navbar-brand text-dark" href="#">CONTACT</a>
-          <h5  class="text-dark">Log in<button><i class="fa-regular fa-user"></i>
-          </button></h5>
-          <!-- <div class="dropdown">
-            <button class="text-dark" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-              HOME
-            </button>
-            <ul class="dropdown-menu">
-              <li><button class="dropdown-item" type="button">Action</button></li>
-              <li><button class="dropdown-item" type="button">Another action</button></li>
-              <li><button class="dropdown-item" type="button">Something else here</button></li>
-            </ul>
-          </div>
-          <div class="dropdown">
-            <button class="text-dark" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-              BLOG
-            </button>
-            <ul class="dropdown-menu">
-              <li><button class="dropdown-item" type="button">Action</button></li>
-              <li><button class="dropdown-item" type="button">Another action</button></li>
-              <li><button class="dropdown-item" type="button">Something else here</button></li>
-            </ul>
-          </div>
-          <div class="dropdown">
-            <button class="text-dark" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-              PAGE
-            </button>
-            <ul class="dropdown-menu">
-              <li><button class="dropdown-item" type="button">Action</button></li>
-              <li><button class="dropdown-item" type="button">Another action</button></li>
-              <li><button class="dropdown-item" type="button">Something else here</button></li>
-            </ul>
-          </div>
-          <div class="dropdown">
-            <button class="text-dark" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-              SHOP
-            </button>
-            <ul class="dropdown-menu">
-              <li><button class="dropdown-item" type="button">Action</button></li>
-              <li><button class="dropdown-item" type="button">Another action</button></li>
-              <li><button class="dropdown-item" type="button">Something else here</button></li>
-            </ul>
-          </div>
-          <div class="dropdown">
-            <button class="text-dark" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-              PORTFOLIO
-            </button>
-            <ul class="dropdown-menu">
-              <li><button class="dropdown-item" type="button">Action</button></li>
-              <li><button class="dropdown-item" type="button">Another action</button></li>
-              <li><button class="dropdown-item" type="button">Something else here</button></li>
-            </ul>
-          </div>
-          <div class="dropdown">
-            <button class="text-dark" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-              CONTACT
-            </button>
-            <ul class="dropdown-menu">
-              <li><button class="dropdown-item" type="button">Action</button></li>
-              <li><button class="dropdown-item" type="button">Another action</button></li>
-              <li><button class="dropdown-item" type="button">Something else here</button></li>
-            </ul>
-          </div> -->
+      </nav>
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="canvas3.jpg" class="d-block w-100" alt="..." style="height: 500px;">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="canvas2.jpg" class="d-block w-100" alt="..." style="height: 500px;">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="canvas1.jpg" class="d-block w-100" alt="..." style="height: 500px;">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-        
     </section>
+        <!-- carousel part -->
     
     <footer> 
 <!-- Footer part -->
